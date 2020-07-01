@@ -9,7 +9,6 @@ public:
   Vollzylinder(double nr, double nl);
 
   Vektor punkt();
-  //double M();
   
   std::string name(){return "Vollzylinder";}
 

@@ -9,8 +9,6 @@ public:
   Zylindermantel(double nr, double nl);
 
   Vektor punkt();
-  //double M();
-  //double J_ana;
   std::string name(){return "Zylindermantel";}
 
 private:
