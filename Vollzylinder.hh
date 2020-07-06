@@ -2,12 +2,15 @@
 #define VOLLZYLINDER_HH
 
 #include "Vektor.hh"
+#include "Koerper.hh"
 
-class Vollzylinder {
+class Vollzylinder : public Koerper {
 public:
   Vollzylinder(double nr, double nl);
 
   Vektor punkt();
+  
+  std::string name(){return "Vollzylinder";}
 
 private:
   double r_, l_;
